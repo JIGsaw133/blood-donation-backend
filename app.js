@@ -15,7 +15,7 @@ const transactionRoutes = require('./routes/transaction');
 dotenv.config();
 
 const app = express();
-const port = process.env.port || 3187;
+const port = process.env.port || 80;
 
 // Middleware
 app.use(cors());
